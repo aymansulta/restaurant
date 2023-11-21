@@ -1,0 +1,21 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(4, 22.5vw);
+    grid-template-rows: minmax(250px, auto);
+    background-color: rgba(73, 94, 87, 0.93);
+    color: white;
+}
+.footer-img {
+    grid-column: 1/ span 2;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.section{
+    margin-left: auto;
+    padding: 2em;
+}
+footer li {
+    list-style: none;
+}

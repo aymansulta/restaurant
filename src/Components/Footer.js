@@ -1,12 +1,13 @@
+import './footer.css';
 import chef from "../icons_assets/restaurant chef B.jpg"
 
 function Footer () {
     return(
         <footer>
-            <section>
-                <img src={chef} alt="chef"/>
+            <section className='section'>
+                <img className='footer-img' src={chef} alt="chef"/>
             </section>
-            <section>
+            <section className='section'>
                 <h4>Doormat <br/>Navigatiom</h4>
                 <ul>
                     <li>Home</li>
@@ -16,16 +17,16 @@ function Footer () {
                     <li>Login</li>
                 </ul>
             </section>
-            <section>
-            <h4>Contact</h4>
+            <section className='section'>
+            <h4>Contact</h4><br/>
                 <ul>
                     <li>Address</li>
                     <li>Phone number</li>
                     <li>email</li>
                 </ul>
             </section>
-            <section>
-            <h4>Social Media Links</h4>
+            <section className='section'>
+            <h4>Social Media Links</h4><br/>
                 <ul>
                     <li>Address</li>
                     <li>Phone number</li>

@@ -16,7 +16,7 @@ function MyHelmet() {
                 <meta name="author" content="Ayman Sultan"/>
                 <meta name="robots" content="index,follow"/>
                 <meta name="language" content="english"/>
-                <meta http-equiv="refresh" content="30"/>
+                {/* <meta http-equiv="refresh" content="30"/> */}
                 <meta http-equiv="content-type" content="text/html"/>
                 <meta charset="UTF-8"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
